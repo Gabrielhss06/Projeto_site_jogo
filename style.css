@@ -1,0 +1,116 @@
+*{
+    /* retirar a margem externa */
+    margin: 0;
+    /* retirar a margem interna */
+    padding: 0;
+}
+
+header {
+    /* cor de fundo */
+    background-color:  rgba(142, 255, 98, 0);
+    /* lagura */
+    width: 100%;
+    /* sombra */
+    box-shadow: 0 0 0px #ccc ;
+    /* fixar barra home */
+    position: relative;
+    top: 0%;
+}
+
+header nav {
+    /*barra para direita*/
+    float: right;
+}
+
+header nav ul {
+    /*retirar a bolinha*/ 
+    list-style: none;
+
+} 
+
+header nav ul li {
+    /*alinhar um do lado do outro*/
+   display: inline-block;
+    /*margem*/
+    margin: 50px;
+    /*mudar o tamanho da fonte*/
+    font-size: 25px;
+    /*mudar para maiusculo*/
+    text-transform: uppercase;
+    /*negrito*/
+    font-weight: bold; 
+}
+
+header nav ul li a:hover {
+    color: rgb(249, 232, 0);
+
+}
+
+header nav ul li a {
+    /* tirar sublinhado */
+    text-decoration: none;
+    /* color */
+    color: #00e5ff;}
+
+body {
+    
+    background-image: url(fotos/texture-990071_960_720.jpg);
+   background-size: 1980px 1500px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    border: 20px;
+    margin-top: 300px;
+}
+
+.grid {
+    /* aplicar a grid */
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: cente;
+}
+
+.grid .coluna {
+    /* sombra */
+    box-shadow: 0 0 10px #145400d5;
+    /* borda arredondada */
+    border-radius: 20px;
+    /* margin externa */
+    margin: 30px;
+    text-align: cente;
+    background-color: rgba(208, 255, 197, 0.44);
+    
+}
+
+.grid .coluna img {
+    /* largura */
+    width: 100%;
+    /* arredondar cantos */
+    border-radius: 10px 10px 0 0;
+    
+}
+
+.grid .coluna p,#Personagem p{
+    margin: 30px;
+    /* alinhar ao centro */
+    text-align: center;
+}
+
+h2 {
+    /* centralizar */
+    text-align: center;
+    /* tamanho da fonte */
+    font-size: 25px;
+   
+}
+
+#historia {
+    margin-left: 25px;
+    border: 100px;
+    background-color: #4e4e4eb6 ;
+    color: #ffffff;
+    box-shadow: 0 0px 50px #3cff006c;
+    border-radius: 10px 20px 0 0;
+}
