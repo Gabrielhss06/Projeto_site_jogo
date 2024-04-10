@@ -114,3 +114,10 @@ h2 {
     box-shadow: 0 0px 50px #3cff006c;
     border-radius: 10px 20px 0 0;
 }
+
+
+.centralizar-nomes{
+
+    text-align: center;
+    position: static;
+}
