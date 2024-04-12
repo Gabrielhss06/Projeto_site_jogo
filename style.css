@@ -50,7 +50,9 @@ header nav ul li a {
     /* tirar sublinhado */
     text-decoration: none;
     /* color */
-    color: #00e5ff;}
+    color: #00e5ff;
+    font-size: 45px;
+}
 
 body {
     
@@ -62,7 +64,6 @@ main {
     padding: 20px;
     text-align: center;
     border: 20px;
-    margin-top: 300px;
 }
 
 .grid {
@@ -108,7 +109,7 @@ h2 {
 
 #historia {
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 25px;
+    margin-left: 50px;
     border: 100px;
     background-color: rgba(28, 98, 12, 0.44);
     color: #ffffff;
@@ -126,6 +127,49 @@ h2 {
 #texto-topo {
 
     color: azure;
-    box-shadow: green;
-    text-shadow: green;
+    
+}
+
+#texto-pr{
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.texto-branco{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.main-contato{
+    background-image: url('fotos/WhatsApp\ Image\ 2024-04-12\ at\ 16.13.26_323be5a7.jpg');
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+}
+
+.main-texto {
+    display: flex;
+    color: aliceblue;
+   
+}
+
+
+#titulo-video{
+
+    color: aqua;
+    font-size: 60px;
+
+}
+
+.video {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
