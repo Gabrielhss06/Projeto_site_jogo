@@ -225,3 +225,34 @@ h2 {
     text-align: center;
 }
 
+.icone {
+    /* aplicar a grid */
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: cente;
+}
+
+.icone .coluna-icone {
+    /* sombra */
+    box-shadow: 0 0 10px #3cff00;
+    /* borda arredondada */
+    border-radius: 20px;
+    /* margin externa */
+    margin: 30px;
+    text-align: cente;
+    background-color: rgba(28, 98, 12, 0.44);
+    
+}
+
+.icone .coluna-icone img {
+    /* largura */
+    width: 100%;
+    /* arredondar cantos */
+    border-radius: 10px 10px 0 0;
+    
+}
+
+.grid .coluna p,#Personagem p{
+    margin: 30px;
+    /* alinhar ao centro */
+    text-align: center;
