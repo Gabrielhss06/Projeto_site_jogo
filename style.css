@@ -6,8 +6,7 @@
 }
 
 header {
-    /* cor de fundo */
-    background-color:  rgba(142, 255, 98, 0);
+    background-image: url(fotos/1712968603156.jpg);
     /* lagura */
     width: 100%;
     /* sombra */
@@ -29,6 +28,7 @@ header nav ul {
 } 
 
 header nav ul li {
+    background-color:rgb(0, 0, 0);
     /*alinhar um do lado do outro*/
    display: inline-block;
     /*margem*/
@@ -149,7 +149,7 @@ h2 {
     height: 200px;
     justify-content: center;
     align-items: center;
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .main-texto {
@@ -173,3 +173,55 @@ h2 {
     align-items: center;
     
 }
+
+.footer {
+   background-image: url(fotos/1712968603156.jpg);
+    color: #ffffff;
+    display: flex;
+    font-size: 25px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-section h2 {
+    border-bottom: 2px solid #a19c9c;
+    padding-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #a19c9c;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid  #a19c9c;
+    padding-top: 10px;
+    text-align: center;
+}
+
