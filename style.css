@@ -6,12 +6,10 @@
 }
 
 header {
-    background-image: url(fotos/1712968603156.jpg);
-    /* lagura */
+    background-image: url(fotos/1712968603156.jpg);   
     width: 100%;
-    /* sombra */
+    height: 180px;
     box-shadow: 0 0 0px #ccc ;
-    /* fixar barra home */
     position: relative;
     top: 0%;
 }
@@ -146,10 +144,10 @@ h2 {
     display: flex;
     flex-direction: column;
     width: auto;
-    height: 200px;
+    height: 120px;
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .main-texto {
@@ -157,7 +155,7 @@ h2 {
     color: aliceblue;
    
 }
-
+/* video Home  */
 
 #titulo-video{
 
@@ -174,6 +172,8 @@ h2 {
     
 }
 
+/* footer Home */
+
 .footer {
    background-image: url(fotos/1712968603156.jpg);
     color: #ffffff;
@@ -182,7 +182,7 @@ h2 {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 12000px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -214,7 +214,7 @@ h2 {
 }
 
 .footer-section ul li a {
-    color: #a19c9c;
+    color: #fcfcfc;
     text-decoration: none;
 }
 
@@ -226,33 +226,36 @@ h2 {
 }
 
 .icone {
-    /* aplicar a grid */
+    
     display: grid;
     grid-template-columns: 33% 33% 33%;
     text-align: cente;
 }
 
-.icone .coluna-icone {
-    /* sombra */
-    box-shadow: 0 0 10px #3cff00;
-    /* borda arredondada */
-    border-radius: 20px;
-    /* margin externa */
-    margin: 30px;
+/* contatos um do lado do outro */
+
+.grid-contato {   
+
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
     text-align: cente;
-    background-color: rgba(28, 98, 12, 0.44);
-    
 }
 
-.icone .coluna-icone img {
-    /* largura */
-    width: 100%;
-    /* arredondar cantos */
-    border-radius: 10px 10px 0 0;
-    
-}
+.grid-contato .coluna-contato {
 
-.grid .coluna p,#Personagem p{
+    box-shadow: 0 0 10px  #ccc;
+    border-radius: 10px;
     margin: 30px;
-    /* alinhar ao centro */
-    text-align: center;
+}
+
+.grid-contato .coluna-contato img {
+
+    width: 100px;
+    border-radius: 10px 10px 0 0;
+}
+
+.texto-contato {
+
+    width: 20px;
+    display: flex;
+}
