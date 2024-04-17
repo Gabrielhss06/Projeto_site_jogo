@@ -1,3 +1,9 @@
+main{
+    width: 1250px;
+    padding: 100px;
+    margin: auto;
+}
+
 *{
     /* retirar a margem externa */
     margin: 0;
@@ -11,11 +17,10 @@ header {
     height: 180px;
     box-shadow: 0 0 0px #ccc ;
     position: relative;
-    top: 0%;
+    top: 10%;
 }
 
 header nav {
-    /*barra para direita*/
     float: right;
 }
 
@@ -27,16 +32,12 @@ header nav ul {
 
 header nav ul li {
     background-color:rgb(0, 0, 0);
-    /*alinhar um do lado do outro*/
-   display: inline-block;
-    /*margem*/
+    display: inline-block;
     margin: 50px;
-    /*mudar o tamanho da fonte*/
     font-size: 25px;
-    /*mudar para maiusculo*/
     text-transform: uppercase;
-    /*negrito*/
     font-weight: bold; 
+    border-radius: 10px;
 }
 
 header nav ul li a:hover {
@@ -45,11 +46,10 @@ header nav ul li a:hover {
 }
 
 header nav ul li a {
-    /* tirar sublinhado */
     text-decoration: none;
-    /* color */
     color: #00e5ff;
     font-size: 45px;
+    padding: 10px;
 }
 
 body {
@@ -65,18 +65,14 @@ main {
 }
 
 .grid {
-    /* aplicar a grid */
     display: grid;
     grid-template-columns: 33% 33% 33%;
     text-align: cente;
 }
 
 .grid .coluna {
-    /* sombra */
     box-shadow: 0 0 10px #145400d5;
-    /* borda arredondada */
     border-radius: 20px;
-    /* margin externa */
     margin: 30px;
     text-align: cente;
     background-color: rgba(28, 98, 12, 0.44);
@@ -84,23 +80,18 @@ main {
 }
 
 .grid .coluna img {
-    /* largura */
     width: 100%;
-    /* arredondar cantos */
     border-radius: 10px 10px 0 0;
     
 }
 
 .grid .coluna p,#Personagem p{
     margin: 30px;
-    /* alinhar ao centro */
     text-align: center;
 }
 
 h2 {
-    /* centralizar */
     text-align: center;
-    /* tamanho da fonte */
     font-size: 25px;
    
 }
@@ -113,6 +104,7 @@ h2 {
     color: #ffffff;
     box-shadow: 0 0px 50px #3cff006c;
     border-radius: 10px 20px 0 0;
+    font-size: 40px;
 }
 
 
@@ -148,6 +140,7 @@ h2 {
     justify-content: center;
     align-items: center;
     font-size: 25px;
+    border-radius: 10px;
 }
 
 .main-texto {
@@ -161,7 +154,12 @@ h2 {
 
     color: aqua;
     font-size: 60px;
-
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .video {
@@ -182,7 +180,6 @@ h2 {
 }
 
 .container {
-    max-width: 12000px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -196,7 +193,8 @@ h2 {
 
 .footer-section {
     flex: 1;
-    margin: 0 20px;
+    margin: 0 7px;
+    text-align: center;
 }
 
 .footer-section h2 {
@@ -214,7 +212,7 @@ h2 {
 }
 
 .footer-section ul li a {
-    color: #fcfcfc;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -243,6 +241,7 @@ h2 {
 
 .grid-contato .coluna-contato {
 
+    display: flex;
     box-shadow: 0 0 10px  #ccc;
     border-radius: 10px;
     margin: 30px;
@@ -254,8 +253,179 @@ h2 {
     border-radius: 10px 10px 0 0;
 }
 
+
+
 .texto-contato {
 
-    width: 20px;
+    color: #ffffff;
+    width: 450px;
     display: flex;
+    flex-direction:column-reverse;
+    justify-content: space-around;
+
+}
+
+.texto-contato a {
+    color: #00e5ff;
+    width: 80px;
+}
+
+.textoentreemcontato {
+
+    color: aliceblue;
+    margin: 100px;
+}
+
+/* .footer-contato */
+
+.footer-contato {
+
+    background-image: url(fotos/1712968603156.jpg);
+    color: aliceblue;
+    display: flex;
+    font-size: 25px;
+}
+
+.footer-contato {
+
+    justify-content: space-around;
+}
+
+.texto-sobre {
+
+    color: #ffffff;
+    font-size: 30px;
+}
+
+#remover{
+    list-style: none;
+}
+
+
+header img{
+    width: 500px;
+    padding: 35px;
+}
+ .menu {
+    display: none;
+ }
+
+/* home */
+
+    
+    @media (max-width: 538px) {
+        main {
+            width: 100%;
+            text-align: center;
+            padding: 0%;
+        }
+        header nav ul {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header img{
+            width: 250px;
+            padding: 15px;
+        }
+        
+        header {
+            width: 100%;
+            height: 100%;
+            height: auto; 
+            display: flex;
+        }
+
+        header nav {
+            float: right;
+           
+        }
+
+        header nav ul li {
+            background-color:rgba(0, 0, 0, 0);
+            display: inline-block;
+            margin: 5px;
+            font-size: 25px;
+            border-radius: 10px;
+        }
+        
+        header nav ul li a:hover {
+            color: rgb(249, 232, 0);
+        
+        }
+        
+        header nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 10px;
+            padding: 10px;
+        }
+         .video {
+           display: none;
+        }
+
+        #titulo-video {
+            font-size: 15px;
+            color: #a19c9c;
+            padding: 10px;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0px;
+        }
+
+        .coluna img {
+            width: 100%;
+            height: auto;
+        }
+        .grid .coluna img {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+            
+        }
+        #texto-pr{
+            font-size: 20px;
+        }
+        #texto-topo{
+            font-size: 10px;
+        }
+        .grid .coluna {
+            box-shadow: 0 0 10px #145400d5;
+            border-radius: 20px;
+            margin: 50px;
+            text-align: cente;
+        }
+
+        #historia {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 50px;
+            border: 10px;
+            background-color: rgba(28, 98, 12, 0.44);
+            color: #ffffff;
+            box-shadow: 0 0px 50px #3cff006c;
+            border-radius: 10px 20px 0 0;
+            font-size: 0.8em;
+        }
+
+        .coluna {
+            padding: 0;
+        }
+
+
+
+
+
+     /* contato */
+
+
+
+        .main-texto{
+            font-size: 20px;
+        }
+        .grid-contato{
+            display: math;
+        }    
 }
