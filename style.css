@@ -52,13 +52,6 @@ header nav ul li a {
     font-size: 45px;
     padding: 10px;
 }
-.body-contato{
-    background-image: url(fotos/texture-990071_960_720.jpg);
-    background-size: 1980px 1500px;
-    margin: auto;
-    min-inline-size: min-content;
- }
-
 
 body {
     
@@ -477,13 +470,12 @@ header img{
             margin-top: 20px;
         }
         .textoentreemcontato{
-            display: contents
+            display: contents;
         }
        .body-contato{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        
        }
 } 
 
