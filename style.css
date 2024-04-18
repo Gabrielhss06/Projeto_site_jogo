@@ -57,6 +57,8 @@ body {
     
     background-image: url(fotos/texture-990071_960_720.jpg);
    background-size: 1980px 1500px;
+   margin: auto;
+   min-inline-size: min-content;
 }
 
 main {
@@ -322,10 +324,19 @@ header img{
  .texto-jogo{
   
  }
-/* home */
 
-    
-    @media (max-width: 538px) {
+ @media (max-width: 1200px){
+    body{
+        min-inline-size: min-content;
+    }
+}
+
+
+
+
+
+     @media (max-width: 538px) {
+   
         main {
             width: 100%;
             text-align: center;
@@ -413,22 +424,42 @@ header img{
 
         #historia {
             font-family: Arial, Helvetica, sans-serif;
-            margin-left: 50px;
             border: 10px;
+            margin: 10px;
             background-color: rgba(28, 98, 12, 0.44);
             color: #ffffff;
             box-shadow: 0 0px 50px #3cff006c;
             border-radius: 10px 20px 0 0;
             font-size: 0.8em;
+            display: table-cell;
         }
 
         .coluna {
             padding: 0;
         }
 
+        .meu-jogo{
+            display: none;
+         
+        }
+        
 
+        .footer{
+            margin-top: 20px;
+            font-size:20px;
+        }
+        body{
+            margin: auto;
+        }
+        .texto-footer{
+            font-size: 10px;
+        }
 
+        /* letra-footer (contato e sobre) */
 
+        .texto-footer-contato{
+            font-size: 15px;
+        }
 
      /* contato */
 
@@ -440,4 +471,12 @@ header img{
         .grid-contato{
             display: math;
         }    
-}
+        .footer-contato{
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        .textoentreemcontato{
+            display: contents
+        }
+} 
+
