@@ -2,6 +2,7 @@ main{
     width: 1250px;
     padding: 100px;
     margin: auto;
+    text-align: center;
 }
 
 *{
@@ -310,6 +311,17 @@ header img{
     display: none;
  }
 
+ .titlo-jogo{
+    width: 1166px;
+    margin: 36px;
+    color: #ffffff;
+    text-align: center;
+    
+ }
+
+ .texto-jogo{
+  
+ }
 /* home */
 
     
