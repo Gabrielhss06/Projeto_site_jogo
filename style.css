@@ -321,12 +321,6 @@ header img{
     
  }
 
- .texto-jogo{
-  
- }
-
-
-
      @media (max-width: 538px) {
    
         main {
@@ -472,10 +466,5 @@ header img{
         .textoentreemcontato{
             display: contents;
         }
-       .body-contato{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-       }
-} 
+    }
 
