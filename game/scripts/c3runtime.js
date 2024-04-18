@@ -4478,7 +4478,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.Platform.Acts.SetMaxSpeed,
 		C3.Plugins.Audio.Acts.StopAll,
 		C3.Plugins.Touch.Cnds.OnTapGestureObject,
-		C3.Plugins.System.Cnds.OnLayoutStart
+		C3.Plugins.Touch.Cnds.OnDoubleTapGesture
 	];
 };
 self.C3_JsPropNameTable = [
@@ -4547,6 +4547,9 @@ self.C3_JsPropNameTable = [
 	{Áudio: 0},
 	{Botão: 0},
 	{Sprite42: 0},
+	{Sprite43: 0},
+	{Sprite44: 0},
+	{Sprite45: 0},
 	{vidas: 0},
 	{Zumb: 0}
 ];
@@ -4605,7 +4608,10 @@ self.InstanceType = {
 	Sprite41: class extends self.ISpriteInstance {},
 	Áudio: class extends self.IInstance {},
 	Botão: class extends self.IButtonInstance {},
-	Sprite42: class extends self.ISpriteInstance {}
+	Sprite42: class extends self.ISpriteInstance {},
+	Sprite43: class extends self.ISpriteInstance {},
+	Sprite44: class extends self.ISpriteInstance {},
+	Sprite45: class extends self.ISpriteInstance {}
 }
 }
 
